@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./hand-typing-on-keyboard-vector-22942020.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="stats">
+            <p>Time: <span id="timer">0s</span></p>
+            <p>Mistakes: <span id="mistakes">0</span></p>
+        </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false">
+        </div>
+        <textarea autofocus autocomplete="off" id="quote_input" rows="3" placeholder="Type here when the test starts..."></textarea>
+
+        <button id="start_test" onclick="startTest()">Start Test</button>
+        <button id="stop_test" onclick="displayResult()">Stop Test</button>
+        <div class="result">
+            <h3>Result</h3>
+            <div class="wrapper">
+                <p>Accuracy: <span id="accuracy"></span></p>
+                <p>Speed: <span id="wpm"></span></p>
+            </div>
+        </div>
+        <!-- <audio id="keySound">
+            <source src="./Typing-keyboard-hands-test-computer-512.webp" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+         -->
+    </div>
+    <script src="script.js">
+ 
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background:#6c14b8ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    padding: 3rem 2rem;
+width: 80vmin;
+height: auto;
+background-color: whitesmoke;
+border-radius: 0.4rem;
+box-shadow: 0 0 5px 3px rgb(0,0,0,0.3);
+}
+.stats{
+    text-align: right;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.stats span{
+    font-weight: bold;
+}
+#quote{
+    text-align:justify;
+    margin:2rem 0.5rem 1.5rem 0.5rem ;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+}
+#quote_input{
+    width:100%;
+    resize: none;
+    font-size: inherit;
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.3rem;
+    
+}
+button{
+float: right;
+background-color: #6c14b8ae;
+color: whitesmoke;
+border-radius: 0.5rem;
+border: none;
+margin-top: 1.5rem;
+padding: 0.8rem 2rem;
+margin-right: 2rem;
+font-size: inherit;
+}
+.result{
+    margin-top: 2.3rem;
+    display: none;
+}
+.result h3{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper span{
+    font-weight: bold;
+}
+.success{
+    color:green;
+}
+
+.fail{
+    color:red;
+}
